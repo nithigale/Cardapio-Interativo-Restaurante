@@ -8,14 +8,23 @@
 
 .perfil {
     width: 70px;
+    margin-right: 50px;
 }
 
-header {
+.header-fixo {
     background-color: darkred;
+    position: fixed;
+    top: 0;
+    width: 98%;
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1000;
+}
+
+main {
+    margin-top: 180px;
 }
 
 .text-entradas {
