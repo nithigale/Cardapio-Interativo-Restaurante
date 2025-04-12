@@ -3,19 +3,77 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background-color: darkred;
-    display: flex;
-    padding: 30px;
-    justify-content: space-between;
-}
-
-h1 {
+    font-family: Arial, sans-serif;
 }
 
 .perfil {
     width: 70px;
 }
+
+header {
+    background-color: darkred;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-entradas {
+    margin: 35px;
+}
+
+.linha-centralizada {
+    border-top: 2px solid red;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.entradas {
+    display: flex;
+    justify-content: center;     /* centraliza no eixo horizontal */
+    flex-wrap: wrap;             /* permite que as imagens quebrem linha */
+    gap: 16px; 
+}
+
+.img-entradas {
+    max-width: 250px;
+    margin-top: 20px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.425);
+}
+
+.entradas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .card {
+    background-color: var(--cor-card);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .card h3 {
+    margin: 0.5rem 0 0.2rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+  }
