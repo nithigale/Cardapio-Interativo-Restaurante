@@ -89,4 +89,37 @@ main {
 
   footer {
     background-color: darkred;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .text-foot-1 {
+    font-size: 25px;
+    padding: 25px;
+  }
+
+  .linha-foot {
+    border-top: 1.5px solid white;
+    margin-left: 25px;
+    width: 400px;
+  }
+
+  .group {
+    display: flex;
+  }
+
+  .localiza {
+    display: block;
+    max-width: 90%;
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-right: 20%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.425);
+  }
+
+  .reclamacao {
+    margin-top: 60px;
+    height: 400px;
   }

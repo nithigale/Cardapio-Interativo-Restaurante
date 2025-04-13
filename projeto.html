@@ -203,21 +203,23 @@
         </section>
     </main>
 
-    <footer>
-        <h3>Saiba onde nos achar!</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.857892534801!2d-46.676099723760714!3d-23.53761306072184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57f685387445%3A0x597840a0592be852!2sRestaurante%20La%20Finestra!5e0!3m2!1spt-BR!2sbr!4v1744321316410!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer >
+        <h3 class="text-foot-1">Saiba onde nos achar!</h3>
+        <div class="linha-foot"></div>
 
-        <form action="cadastro.php">
-            <p>
-                <label for="imsg">Deixe aqui sua reclamação</label> <br>
-                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
-            </p>
-
-            <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </p>
-        </form>
+        <div class="group">
+            <iframe class="localiza" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.857892534801!2d-46.676099723760714!3d-23.53761306072184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57f685387445%3A0x597840a0592be852!2sRestaurante%20La%20Finestra!5e0!3m2!1spt-BR!2sbr!4v1744321316410!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="cadastro.php">
+                <p>
+                    <label class="text-foot-2" for="imsg">Deixe aqui sua reclamação</label> <br>
+                    <textarea class="reclamacao" name="msg" id="imsg" cols="30" rows="10"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </div>
     </footer>
 </body>
 </html>
