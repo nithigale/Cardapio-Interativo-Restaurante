@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+.header-fixo {
+    display: none;
+}
+
+.localiza {
+    display: none;
+}
+
+.reclame {
+    width: 100%;
+}
+
+footer::after {
+    content: 'Nosso estabelecimento fica na Rua Bartira, 591 - Perdizes, São Paulo - SP, 05009-000';
+}

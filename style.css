@@ -94,7 +94,8 @@ main {
     padding-bottom: 50px;
   }
 
-  .text-foot-1 {
+  .title {
+    color: white;
     font-size: 25px;
     padding: 25px;
   }
@@ -120,6 +121,9 @@ main {
   }
 
   .reclamacao {
+    flex-wrap: wrap;
     margin-top: 60px;
+    margin-right: 110px;
+    width: 400px;
     height: 400px;
   }
